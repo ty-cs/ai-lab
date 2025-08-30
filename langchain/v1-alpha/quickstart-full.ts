@@ -27,7 +27,8 @@ const USER_LOCATION = {
 } as const;
 
 const getUserInfo = tool(
-    (_, config: any) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (_, config: Record<string, any>) => {
         const { user_id } = config.context as {
             user_id: keyof typeof USER_LOCATION;
         };

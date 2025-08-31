@@ -23,7 +23,8 @@
         "langchain": "^1.0.0-alpha.2"
     },
     "scripts": {
-        "prepare": "husky"
+        "prepare": "husky",
+        "format": "prettier --write ."
     },
     "lint-staged": {
         "**/*": "prettier --write --ignore-unknown"

@@ -26,25 +26,6 @@ You can run any of the TypeScript files directly using `bun run`. For example:
 bun run src/langchain/how-tos/key-features/chains.ts
 ```
 
-### Available Examples
-
-#### Key Features
-
-- `bun run src/langchain/how-tos/key-features/chains.ts`
-- `bun run src/langchain/how-tos/key-features/streaming.ts`
-- `bun run src/langchain/how-tos/key-features/structured-output.ts`
-- `bun run src/langchain/how-tos/key-features/tool-calling.ts`
-
-#### LCEL (LangChain Expression Language)
-
-- `bun run src/langchain/how-tos/LCEL/cheatsheet.ts`
-- `bun run src/langchain/how-tos/LCEL/sequence.ts`
-
-#### v1-alpha
-
-- `bun run src/langchain/v1-alpha/quickstart.ts`
-- `bun run src/langchain/v1-alpha/quickstart-full.ts`
-
 ## Useful Resources
 
 - [LangGraph.js](https://github.com/langchain-ai/langgraphjs): A framework for building resilient language agents as graphs. It is the JavaScript/TypeScript version of the original Python LangGraph.

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { createAgent, tool } from 'langchain';
 import { ChatGoogleGenerativeAI } from '@langchain/google-genai';
 import z from 'zod';
@@ -20,7 +21,7 @@ const USER_LOCATION = {
 } as const;
 
 const getUserInfo = tool(
-    (_, config) => {
+    (_, config: Record<string, any>) => {
         const { user_id } = config.context as {
             user_id: keyof typeof USER_LOCATION;
         };
